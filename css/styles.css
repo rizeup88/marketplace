@@ -1,0 +1,74 @@
+html body {
+	background-color: #FFFFFF;
+}
+
+h1 {
+	color: #28405C;
+	font-family: "Avenir";
+	font-weight: 600;
+}
+
+p {
+	color: #28405C;
+	font-family: "Domus";
+}
+
+a {
+	color: #28405C;
+	font-family: "Domus";
+	font-weight: 400;
+	text-decoration-style: none;
+}
+
+.navbar .btn {
+	color: #28405C;
+	border-color: #28405C;
+}
+
+.checkout {
+	position: relative;
+	background-color: #E9EDF1;
+}
+
+.checkout .container {
+	position: relative;
+	padding: 3em 2em 0em 2em;
+}
+
+.checkout .row {
+	padding: 3em;
+	background-color: #FFFFFF;
+}
+
+#info {
+	width: 90%;
+}
+
+#confirmation {
+	display: none;
+}
+
+#notifications  {
+	width: 100%;
+	margin-top: 1em;
+}
+
+#total {
+	margin-top: 1em;
+}
+
+.completion {
+	position: relative;
+	background-color: #E9EDF1;
+	padding-bottom: 3em;
+}
+
+.completion .container {
+	position: relative;
+	padding: 3em 2em 0em 2em;
+}
+
+.completion .row {
+	padding: 3em;
+	background-color: #FFFFFF;
+}

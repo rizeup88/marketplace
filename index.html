@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<title>The time has come... let's complete your order</title>
+    	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    	<script src="js/jquery-3.4.1.js"></script>
+    	<script src="js/scripts.js"></script>
+  	</head>
+  	<body>
+
+  	<nav class="navbar navbar-light bg-light">
+  		<a class="navbar-brand">
+  			<img src="images/myFandom_logo_text.png" width="350"></a>
+  		</a>
+  		<form class="form-inline">
+    		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  		</form>
+	</nav>
+
+	<section class="checkout">
+  		<div class="container">
+  			<h1>Review Your Item Total</h1>
+  			<div class="row">
+  				<div class="col-md-4">
+  					<div id="image">
+  						<img src="images/poster1.png" width="200">
+  					</div>
+  				</div>
+  				<div class="col-md-8">
+  					<div id="info">
+  						<h1>Gone With the Wind - Original 1967 Theatre Poster</h1>
+  						<p>Availability: <span style="color:#23B149;font-weight:600;">In Stock</span></p>
+  					</div>
+  					<div id="price">
+  						<h4><span style="color:#282923;font-weight:600;">$20.00</span></h4>
+  						<p>Qty: 1</p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="container">
+  			<form id="onlineorder">
+  			<h1>Provide Your Shipping Info</h1>
+  			<div class="row">
+  				<div class="col-md-12">
+  					<h4 class="title">Shipping Address</h4>
+  					<div class="form-row">
+    					<div class="form-group col-md-6">
+      						<label for="firstname">First Name</label>
+      						<input type="firstname" class="form-control" id="firstname">
+    					</div>
+    					<div class="form-group col-md-6">
+      						<label for="lastname">Last Name</label>
+      						<input type="lastname" class="form-control" id="lastname">
+    					</div>
+  					</div>
+  					<div class="form-row">
+  						<div class="form-group col-md-12">
+    						<label for="address">Home Address</label>
+    						<input type="text" class="form-control" id="address">
+  						</div>
+  					</div>
+  					<div class="form-row">
+    					<div class="form-group col-md-6">
+      						<label for="city">City</label>
+      						<input type="text" class="form-control" id="city">
+    					</div>
+    					<div class="form-group col-md-6">
+      						<label for="state">State</label>
+      						<select id="state" class="form-control">
+        						<option selected>Choose State</option>
+        						<option>Oregon (OR)</option>
+        						<option>Washington (WA)</option>
+        						<option>California (CA)</option>
+      						</select>
+    					</div>
+    				</div>
+    				<div class="form-row">
+    					<div class="form-group col-md-4">
+      						<label for="zip">Zip Code</label>
+      						<input type="text" class="form-control" id="zip">
+    					</div>
+    					<div class="form-group col-md-8">
+      						<label for="phone">Primary Phone</label>
+      						<input type="text" class="form-control" id="phone">
+    					</div>
+  					</div>
+  				</div>
+  				<div class="col-md-12">
+  					<div id="notifications">
+  						<h4 class="title">Shipping Notifications</h4>
+  						<div class="form-row">
+    						<div class="form-group col-md-6">
+      							<label for="contactemail">Contact Email</label>
+      							<input type="contactemail" class="form-control" id="contactemail">
+    						</div>
+    						<div class="form-group col-md-6">
+      							<label for="contactphone">Contact Phone</label>
+      							<input type="contactphone" class="form-control" id="contactphone">
+    						</div>
+  							<div class="form-group col-md-6">
+  								<div id="total">
+  									<h4>Cart Subtotal: <span style="color:#282923;font-weight:400;">$20.00</span></h4>
+  									<h4><span style="color:#23B149;font-weight:600;">FREE Shipping: $0.00</span></h4>
+  									<hr>
+  									<h4>Final Total: <span style="color:#282923;font-weight:700;">$20.00</span></h4>
+  									<br>
+  									<button type="submit" class="btn btn-success">Place Order</button>
+  									<button type="submit" class="btn btn-light">Return to My Cart</button>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</form>
+  		</div>
+  	</section>
+
+  	<section class="completion">
+  		<div id="confirmation">
+  			<div class="container">
+  			  	<h1>Here are your order details: </h1>
+  			  	<div class="row">
+  			  		<div class="col-md-12">
+  			  			<h5>Order Info: </h5>
+          				<p>Name: <span class="firstname"></span> <span class="lastname"></span><br>Address: <span class="address"></span><br>City: <span class="city"></span><br>State: <span class="state"></span><br>Zip Code: <span class="zip"></span><br>Primary Phone: <span class="phone"></span></p>
+          				<br>
+          				<h5>Shipping Notifications: </h5>
+          				<p>Contact Email: <span class="contactemail"></span><br>Contact Phone: <span class="contactphone"></span></p>
+          			</div>
+          		</div>
+        	</div>
+  		</div>
+  	</section>
+  	</body>
+</html>
